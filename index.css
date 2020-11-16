@@ -2,23 +2,40 @@ body {
     background-color: #0099ff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
- table {
-    background-color: #ffffff;
-    border: 1px solid #000000;
-    border-spacing: 0px;
- }
-
- table td {
-    border: 1px solid #000000;
-    text-align: center;
-    padding: 10px;
- }
-
- table th {
-    border: 1px solid #000000;
-    background-color: yellow;
- }
-
  table.cyanTable {
      background-color: cyan;
+     border: 1px solid black;
+     border-spacing: 0px;
+ }
+
+ table.cyanTable th {
+     background-color: yellow;
+     border: 1px solid black;
+ }
+
+ table.grayTable {
+     background-color: lightgray;
+     border: 1px solid black;
+     border-spacing: 0px;
+ }
+
+ table.grayTable th {
+     background-color: yellow;
+     border: 1px solid black;
+ }
+
+ table.bigTable {
+     border-spacing: 0px;
+     background-color: white;
+ }
+
+ table.bigTable td {
+     text-align: center;
+     padding: 10px;
+     border: 1px solid black;
+ }
+
+ table.bigTable th {
+     background-color: yellow;
+     border: 1px solid black;
  }
