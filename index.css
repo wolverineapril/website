@@ -14,7 +14,7 @@ body {
  }
 
  table.grayTable {
-     background-color: lightgray;
+     background-color: gray;
      border: 1px solid black;
      border-spacing: 0px;
  }
