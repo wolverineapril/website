@@ -1,61 +1,60 @@
 #Orbit {
-    width: 400px;
-    height: 400px;
-    border: 2px silver dashed;
-    margin: 100px;
-    border-radius: 100%;
-    position: absolute;
+  width: 400px;
+  height: 400px;
+  border: 2px silver dashed;
+  margin: 100px;
+  border-radius: 100%;
+  position: absolute;
 }
 
 #EarthRotation {
-    width: 400px;
-    height: 400px;
-    border-radius: 100%;
-    animation: spin-right 10s linear infinite;
-    position: relative;
-    top: 0;
-    left: 0;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  animation: spin-right 10s linear infinite;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 #Earth {
-    width: 75px;
-    height: 75px;
-    background-color: blue;
-    border-radius: 100%;
-    position: relative;
-    left: 50px;
+  width: 75px;
+  height: 75px;
+  background-color: blue;
+  border-radius: 100%;
+  position: relative;
+  left: 50px;
 }
 
 #MoonRotation {
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    position: relative;
-    animation: spin-right 2s linear infinite;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  position: relative;
+  animation: spin-right 2s linear infinite;
 }
 
 #Moon {
-    width: 20px;
-    height: 20px;
-    background-color: lightgray;
-    border-radius: 100%;
-    position: relative;
-    left: -20px;
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+  border-radius: 100%;
+  position: relative;
+  left: -20px;
 }
 
 #Sun {
-    width: 250px;
-    height: 250px;
-    background-color: yellow;
-    border-radius: 100%;
-    position: absolute;
-    top: 185px;
-    left: 185px;
-
+  width: 250px;
+  height: 250px;
+  background-color: yellow;
+  border-radius: 100%;
+  position: absolute;
+  top: 185px;
+  left: 185px;
 }
 
-@-webkit-keyframes spin-right{
-    100%{
-        transform: rotate(360deg);
-    }
+@-webkit-keyframes spin-right {
+  100% {
+    transform: rotate(360deg);
+  }
 }

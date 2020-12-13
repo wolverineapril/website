@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>My Form</title>
+  </head>
+  <body>
+    <h1>Result</h1>
+    <div id="Content"></div>
+    <script>
+      for (const [key, value] of new URLSearchParams(window.location.search)) {
+        document.getElementById("Content").append(key + ": " + value);
+        document.getElementById("Content").append(document.createElement("br"));
+      }
+    </script>
+  </body>
+</html>

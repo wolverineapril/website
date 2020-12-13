@@ -1,127 +1,132 @@
 body {
-    background-color: #0099ff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
- }
+  background-color: #0099ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
 
- table.cyanTable {
-     background-color: cyan;
-     border: 1px solid black;
-     border-spacing: 0px;
- }
+table.cyanTable {
+  background-color: cyan;
+  border: 1px solid black;
+  border-spacing: 0px;
+}
 
- table.cyanTable th {
-     background-color: yellow;
-     border: 1px solid black;
- }
+table.cyanTable th {
+  background-color: yellow;
+  border: 1px solid black;
+}
 
- table.danceFloorTable {
-     background-color: gray;
-     border: 1px solid black;
-     border-spacing: 0px;
- }
+table.danceFloorTable {
+  background-color: gray;
+  border: 1px solid black;
+  border-spacing: 0px;
+}
 
- table.danceFloorTable td:hover {
-     background-color: lime;
-     color: navy;
- }
+table.danceFloorTable td:hover {
+  background-color: lime;
+  color: navy;
+}
 
- table.danceFloorTable tr:nth-child(2) td:hover:nth-child(1) {
-    background-color: red;
-    color: white;
+table.danceFloorTable tr:nth-child(2) td:hover:nth-child(1) {
+  background-color: red;
+  color: white;
 }
 
 table.danceFloorTable tr:nth-child(2) td:hover:nth-child(2) {
-    background-color: yellow;
-    color: white;
+  background-color: yellow;
+  color: white;
 }
 
 table.danceFloorTable tr:nth-child(3) td:hover:nth-child(1) {
-    background-color: lime;
-    color: white;
+  background-color: lime;
+  color: white;
 }
 
 table.danceFloorTable tr:nth-child(3) td:hover:nth-child(2) {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
 
- table.danceFloorTable th:hover {
-     background-color: purple;
-     color: white;
- }
+table.danceFloorTable th:hover {
+  background-color: purple;
+  color: white;
+}
 
- table.danceFloorTable th {
-     background-color: yellow;
-     border: 1px solid black;
- }
+table.danceFloorTable th {
+  background-color: yellow;
+  border: 1px solid black;
+}
 
- table.bigTable {
-     border-spacing: 0px;
-     background-color: white;
- }
+table.bigTable {
+  border-spacing: 0px;
+  background-color: white;
+}
 
- table.bigTable td {
-     text-align: center;
-     padding: 10px;
-     border: 1px solid black;
- }
+table.bigTable td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
 
- table.bigTable th {
-     background-color: yellow;
-     border: 1px solid black;
- }
+table.bigTable th {
+  background-color: yellow;
+  border: 1px solid black;
+}
 
- input:hover {
-     background-color: blue;
-     color: white;
-     cursor: pointer;
- }
+input:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
 
- .sidebar {
-     background-color: black;
-     color: white;
-     width: 150px;
-     margin-left: -150px;
-     transition-duration: 250ms;
- }
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 150px;
+  margin-left: -150px;
+  transition-duration: 250ms;
+}
 
- .sidebar.show {
-     margin-left: 0;
- }
+.sidebar.show {
+  margin-left: 0;
+}
 
- .sidebar a {
-     color: white;
- }
+.sidebar a {
+  color: white;
+}
 
- .sidebar a:hover {
-    color: gold;
- }
+.sidebar a:hover {
+  color: gold;
+}
 
- .header {
-     background-color: purple;
-     color: white;
- }
+.header {
+  background-color: purple;
+  color: white;
+}
 
- .layout {
-     display: flex;
-     flex-direction: row;
-     height: 100vh;
- }
+.layout {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
 
- .main {
-     flex: 1;
- }
+.main {
+  flex: 1;
+}
 
- .content {
-     padding-left: 20px;
- }
+.content {
+  padding-left: 20px;
+}
 
- .menu {
-     padding-left: 20px;
-     padding-top: 10px;
- }
+.menu {
+  padding-left: 20px;
+  padding-top: 10px;
+}
 
- .menu:hover {
-     cursor: pointer;
-     color: gold;
- }
+.menu:hover {
+  cursor: pointer;
+  color: gold;
+}
+
+label span {
+  background-color: lightblue;
+}

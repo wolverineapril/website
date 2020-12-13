@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>My Form</title>
+  </head>
+  <body>
+    <form action="result.html">
+      <div>
+        <label for="Name"> <span>Name:</span> </label>
+        <input
+          id="Name"
+          name="Name"
+          type="text"
+          placeholder="Type your name here!"
+        />
+      </div>
+      <div>
+        <label for="Password"> <span>Password:</span> </label>
+        <input
+          id="Password"
+          name="Password"
+          type="password"
+          placeholder="Type your password here!"
+          required
+        />
+      </div>
+      <div>
+        <label for="Email"> <span>Email:</span> </label>
+        <input
+          id="Email"
+          name="Email"
+          type="email"
+          placeholder="Type your email here!"
+        />
+      </div>
+      <div>
+        <label for="Age"> <span>Age:</span> </label>
+        <input id="Age" name="Age" type="number" min="0" max="100" />
+      </div>
+      <div>
+        <label for="Checkbox"> <span>I Agree:</span> </label>
+        <input id="Checkbox" name="Checkbox" type="checkbox" />
+      </div>
+      <div>
+        <label for="Boy"> <span>Boy</span> </label>
+        <input id="Boy" name="Gender" type="radio" value="Boy" />
+        <label for="Girl"> <span>Girl</span> </label>
+        <input id="Girl" name="Gender" type="radio" value="Girl" />
+      </div>
+      <div>
+        <label for="BloodType"> <span>Blood Type</span> </label>
+        <select id="BloodType" name="BloodType">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="AB">AB</option>
+          <option value="O">O</option>
+        </select>
+      </div>
+      <div>
+        <label for="Notes"> <span>Notes</span> </label>
+        <textarea id="Notes" name="Notes"></textarea>
+      </div>
+      <button type="submit">submit</button>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
